@@ -1,0 +1,10 @@
+{
+  "_note": "One row per Undertale audio file the mod plays. Files are read from the player's own Undertale folder at runtime ({game:undertale}); nothing is copied. verified=false means the filename has not been confirmed against a real install yet.",
+  "rows": [
+    {"id": "lobby",    "state": "waiting",  "undertale_file": "mus_town.ogg",   "loop": true,  "volume": 0.5, "verified": false},
+    {"id": "chase",    "state": "infected", "undertale_file": "mus_dogsong.ogg","loop": true,  "volume": 0.6, "verified": false},
+    {"id": "hiding",   "state": "survivor", "undertale_file": "mus_snowy.ogg",  "loop": true,  "volume": 0.5, "verified": false},
+    {"id": "win",      "state": "round_end_survivors", "undertale_file": "mus_toriel.ogg", "loop": false, "volume": 0.6, "verified": false},
+    {"id": "lose",     "state": "round_end_infected",  "undertale_file": "mus_sansdate.ogg","loop": false, "volume": 0.6, "verified": false}
+  ]
+}

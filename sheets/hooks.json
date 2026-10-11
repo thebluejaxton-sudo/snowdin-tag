@@ -1,0 +1,8 @@
+{
+  "_note": "Hooks into Gorilla Tag (Unity, BepInEx/Harmony). Type and member names must be confirmed against the real Assembly-CSharp.dll before the build is trusted.",
+  "rows": [
+    {"id": "tag_manager",   "type": "GorillaTagManager",  "member": "currentInfected", "use": "detect local player infected / round end", "verified": false},
+    {"id": "local_player",  "type": "GorillaTagger",      "member": "Instance",        "use": "find local rig for state polling",         "verified": false},
+    {"id": "mod_gate",      "type": "(room)",             "member": "private modded lobby", "use": "only run in private/modded rooms, never public queues", "verified": false}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_status": "DRAFT - not validated by Melty (network blocked). Fields must be checked with inspect_package, validate_recipe and one_click_check.",
+  "games": [
+    {"slug": "<custom-slug-of-installed-Gorilla-Tag>", "role": "primary"},
+    {"slug": "undertale", "role": "companion"}
+  ],
+  "components": [
+    {"fileName": "SnowdinTag-*.zip", "note": "BepInEx (LGPL, bundled with credit) + SnowdinTag.dll; installs into {game}"}
+  ],
+  "launch": {"kind": "game"},
+  "env": {"SNOWDIN_UNDERTALE_DIR": "{game:undertale}"},
+  "multiplayer": null
+}

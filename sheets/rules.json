@@ -1,0 +1,10 @@
+{
+  "_note": "Lore mapping: tag = an Undertale encounter. The infected gorilla is the one 'hunting' the human soul; survivors are determined to keep their soul. Beta is audio + HUD text only (no sprites yet).",
+  "rows": [
+    {"id": "round_start",  "gorilla_event": "round_start",  "track": "hiding",  "hud_text": "* Snow is falling. You feel like you're going to have a bad time.", "verified": false},
+    {"id": "got_tagged",   "gorilla_event": "local_tagged", "track": "chase",   "hud_text": "* You were tagged. Stay determined...", "verified": false},
+    {"id": "tag_someone",  "gorilla_event": "local_tagged_other", "track": "chase", "hud_text": "* You tagged someone. Their soul turns red.", "verified": false},
+    {"id": "survivors_win","gorilla_event": "round_end_survivors", "track": "win",  "hud_text": "* But it refused.", "verified": false},
+    {"id": "infected_win", "gorilla_event": "round_end_infected",  "track": "lose", "hud_text": "* Everyone was tagged.", "verified": false}
+  ]
+}
